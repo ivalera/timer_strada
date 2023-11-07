@@ -1,0 +1,86 @@
+*, h1, h2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    background-color: #242424;
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 18, 18);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09));
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.theme__title{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.stopwatch__card{
+    margin-top: 40px;
+    padding: 40px 40px;
+    border-radius: 16px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+.stopwatch__title{
+    margin-bottom: 40px;
+}
+.stopwatch__timer-block{
+    margin-bottom: 40px;
+}
+#stopwatch__get-time{
+    width: 132px;
+    padding: 6px 8px;
+    outline: none;
+    font-size: 16px;
+}
+.btn{
+    padding: 6px 30px;
+    border-radius: 16px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(94, 85, 214);
+    color: rgb(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.71);
+    transition: background-color .3s;
+}
+
+.btn:hover{
+    background-color: rgb(94, 85, 214, 0.6);
+}
+
+.btn:active{
+    background-color: rgb(18, 18, 18);
+    transition: background-color .3s;
+}
+
+#stopwatch__time{
+    margin-top: 30px;
+}
